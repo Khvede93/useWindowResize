@@ -7,7 +7,7 @@ export const Test = () => {
   const { width, height } = windowSize;
 
   return (
-    <div className='test'>
+    <div className='container'>
       <h1>useWindowResize / useResponsive Custom Hook</h1>
       <p>Width is: {width}</p>
       <p>Height is: {height}</p>
