@@ -1,8 +1,13 @@
 import { useState } from 'react';
 import './App.css';
+import { Test } from './components';
 
 function App() {
-  return <div>App</div>;
+  return (
+    <div>
+      <Test />
+    </div>
+  );
 }
 
 export default App;
